@@ -1,0 +1,16 @@
+{
+  "name": "yameveo/friends-test",
+  "autoload": {
+    "psr-0": {
+      "": "src"
+    }
+  },
+  "require": {
+    "silex/silex": "^2.0",
+    "monolog/monolog": "^1.22",
+    "twig/twig":"~2.0"
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}

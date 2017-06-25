@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="assets/css/normalize.css" />
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="assets/css/app.css" />
+  <link rel="stylesheet" href="assets/css/theme.css" />
+
+  <title>Frontend Test | Yameveo - Software Agency</title>
+</head>
+<body class="skin-blue sidebar-mini fixed  pace-done">
+
+  <div class="wrapper">
+
+    <?php /* Header */ ?>
+    <header class="main-header">
+      <a href="/" class="logo">
+        <img src="assets/img/yameveo.png" alt="logo" style="max-width: 75%;" />
+      </a>
+      <nav class="navbar navbar-static-top">
+        <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+          <span class="sr-only">Toggle navigation</span>
+        </a>
+        <div class="navbar-custom-menu">
+          <ul class="nav navbar-nav">
+            <li class="dropdown user user-menu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-lg fa-user-circle"></i></a>
+              <ul class="dropdown-menu">
+                <li class="user-header"><i class="fa fa-3x fa-user-circle"></i><p>developer@yameveo.com</p></li>
+                <li class="user-footer"><div><a href="/logout" class="btn btn-default btn-flat">Logout</a></div></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <?php /* Sidebar Left */ ?>
+    <aside class="main-sidebar">
+      <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 897px;">
+        <section class="sidebar" style="height: 897px; overflow: hidden; width: auto;">
+          <ul class="sidebar-menu">
+            <li class="header">Menu</li>
+            <li icon="fa fa-th" class="active first"><a href="#"><i class="fa fa-th"></i><span class="nav-label">User Grid</span></a></li>
+          </ul>
+        </section>
+        <div class="slimScrollBar" style="background: rgba(0, 0, 0, 0.2) none repeat scroll 0% 0%; width: 3px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 897px;"></div>
+        <div class="slimScrollRail" style="width: 3px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51) none repeat scroll 0% 0%; opacity: 0.2; z-index: 90; right: 1px;"></div>
+      </div>
+    </aside>
+
+    <?php /* Content */ ?>
+    <div class="content-wrapper" style="min-height: 896px;">
+      <section class="content content-column">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="nav-tabs-custom">
+              <div class="tab-content">
+                <br><br>
+                <h2 class="divider m-bottom-20" title="">My Friends</h2>
+                <table role="grid" class="table table-condensed responsive no-footer">
+                  <thead>
+                    <tr role="row">
+                      <th class="" rowspan="1" colspan="1" style="width: 0px;"></th>
+                      <th class="sorting" rowspan="1" colspan="1" style="font-weight: 400; width: 45%;"> Friend Name</th>
+                      <th class="sorting" rowspan="1" colspan="1" style="font-weight: 400; width: 10%; text-align: center"> Age</th>
+                      <th class="sorting hidden-md hidden-xs" rowspan="1" colspan="1" style="font-weight: 400; width: 10%; text-align: center"> City</th>
+                      <th class="sorting" rowspan="1" colspan="1" style="font-weight: 400; width: 10%;"> Country</th>
+                      <th class="sorting" rowspan="1" colspan="1" style="font-weight: 400; width: 20%;"> Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr role="row" class="odd">
+                      <td>
+                        <img src="http://www.theenergycollective.com/wp-content/plugins/userpro/img/default_avatar_male.jpg" alt="SN Avatar" height="60" width="60" />
+                      </td>
+                      <td>Jake Owen</td>
+                      <td class="text-center">41</td>
+                      <td class="text-center hidden-md hidden-xs"><i class="fa fa-globe fa-lg" aria-hidden="true"></i> Arizona</td>
+                      <td class="text-center">United States</td>
+                      <td style="font-weight: 600;">Visible</td>
+                    </tr>
+                    <tr role="row" class="odd">
+                      <td>
+                        <img src="https://www.singlesplace.nl/design/images/female.jpg" alt="SN Avatar" height="60" width="60" />
+                      </td>
+                      <td>Olivia Newton</td>
+                      <td class="text-center">40</td>
+                      <td class="text-center hidden-md hidden-xs"><i class="fa fa-globe fa-lg" aria-hidden="true"></i> New York</td>
+                      <td class="text-center">United States</td>
+                      <td style="font-weight: 600;"></td>
+                    </tr>
+                    <tr role="row" class="odd">
+                      <td>
+                        <img src="http://www.theenergycollective.com/wp-content/plugins/userpro/img/default_avatar_male.jpg" alt="SN Avatar" height="60" width="60" />
+                      </td>
+                      <td>Jake Owen</td>
+                      <td class="text-center">41</td>
+                      <td class="text-center hidden-md hidden-xs"><i class="fa fa-globe fa-lg" aria-hidden="true"></i> Arizona</td>
+                      <td class="text-center">United States</td>
+                      <td style="font-weight: 600;">Visible</td>
+                    </tr>
+                    <tr role="row" class="odd">
+                      <td>
+                        <img src="https://www.singlesplace.nl/design/images/female.jpg" alt="SN Avatar" height="60" width="60" />
+                      </td>
+                      <td>Olivia Newton</td>
+                      <td class="text-center">40</td>
+                      <td class="text-center hidden-md hidden-xs"><i class="fa fa-globe fa-lg" aria-hidden="true"></i> New York</td>
+                      <td class="text-center">United States</td>
+                      <td style="font-weight: 600;"></td>
+                    </tr><tr role="row" class="odd">
+                      <td>
+                        <img src="http://www.theenergycollective.com/wp-content/plugins/userpro/img/default_avatar_male.jpg" alt="SN Avatar" height="60" width="60" />
+                      </td>
+                      <td>Jake Owen</td>
+                      <td class="text-center">41</td>
+                      <td class="text-center hidden-md hidden-xs"><i class="fa fa-globe fa-lg" aria-hidden="true"></i> Arizona</td>
+                      <td class="text-center">United States</td>
+                      <td style="font-weight: 600;">Visible</td>
+                    </tr>
+                    <tr role="row" class="odd">
+                      <td>
+                        <img src="https://www.singlesplace.nl/design/images/female.jpg" alt="SN Avatar" height="60" width="60" />
+                      </td>
+                      <td>Olivia Newton</td>
+                      <td class="text-center">40</td>
+                      <td class="text-center hidden-md hidden-xs"><i class="fa fa-globe fa-lg" aria-hidden="true"></i> New York</td>
+                      <td class="text-center">United States</td>
+                      <td style="font-weight: 600;"></td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+    <?php /* Footer */ ?>
+    <footer class="main-footer">
+      <strong>Copyright © 2017</strong>
+      <div class="pull-right hidden-xs"><b>Social Network</b></div>
+    </footer>
+  </div>
+
+  <script src="..js/jquery.min.js"></script>
+  <script src="..js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+nginx:
+  build: nginx
+  ports:
+    - "9005:80"
+  volumes:
+    - "./nginx/conf.d/nginx.conf/:/etc/nginx/nginx.conf"
+    - "./nginx/conf.d/friends.conf:/etc/nginx/conf.d/friends.conf"
+  volumes_from:
+    - phpfpm
+  links:
+    - phpfpm
+
+phpfpm:
+  image: php:7-fpm
+  entrypoint: /run.sh
+  volumes:
+    - ../../:/app/friends
+    - "./phpfpm/run.sh:/run.sh"
+  environment:
+    APP_ENV: dev

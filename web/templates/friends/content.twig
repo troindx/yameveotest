@@ -1,0 +1,45 @@
+
+    
+
+    <?php /* Content */ ?>
+    <div class="content-wrapper" style="min-height: 896px;">
+      <section class="content content-column">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="nav-tabs-custom">
+              <div class="tab-content">
+                <br><br>
+                <h2 class="divider m-bottom-20" title="">My Friends</h2>
+                <table role="grid" class="table table-condensed responsive no-footer">
+                  <thead>
+                    <tr role="row">
+                      <th class="" rowspan="1" colspan="1" style="width: 0px;"></th>
+                      <th class="sorting" rowspan="1" colspan="1" style="font-weight: 400; width: 45%;"> Friend Name</th>
+                      <th class="sorting" rowspan="1" colspan="1" style="font-weight: 400; width: 10%; text-align: center"> Age</th>
+                      <th class="sorting hidden-md hidden-xs" rowspan="1" colspan="1" style="font-weight: 400; width: 10%; text-align: center"> City</th>
+                      <th class="sorting" rowspan="1" colspan="1" style="font-weight: 400; width: 10%;"> Country</th>
+                      <th class="sorting" rowspan="1" colspan="1" style="font-weight: 400; width: 20%;"> Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  {% for friend in vars.friends %}
+                    <tr role="row" class="odd">
+                      <td>
+                        <img src="{{ friend.image }}" alt="SN Avatar" height="60" width="60" />
+                      </td>
+                      <td>{{ friend.name }}"</td>
+                      <td class="text-center">{{ friend.age }}</td>
+                      <td class="text-center hidden-md hidden-xs"><i class="fa fa-globe fa-lg" aria-hidden="true"></i>{{ friend.city }}"</td>
+                      <td class="text-center">{{ friend.country }}"</td>
+                      <td style="font-weight: 600;">{{ friend.status }}"</td>
+                    </tr>
+                  {% endfor %}
+                  </tbody>
+                </table>
+                {{ include('paginator.twig', { 'vars': vars }) }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>

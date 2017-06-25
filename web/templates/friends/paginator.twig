@@ -1,0 +1,6 @@
+{% if vars.offset > 0 %}
+    <a href="?offset={{vars.offset-5 }}">Previous</a>
+{% endif %}
+{% if vars.friends | length == 5 %}
+	<a href="?offset={{vars.offset+5 }}">Next</a>
+{% endif %}

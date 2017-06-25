@@ -1,0 +1,100 @@
+{
+  "friends": [
+    {
+      "name": "Friend 1",
+      "age": 10,
+      "city": "Arizona",
+      "country": "United Stats",
+      "status": "Visible",
+      "image": "http://www.theenergycollective.com/wp-content/plugins/userpro/img/default_avatar_male.jpg"
+    },
+    {
+      "name": "Friend 2",
+      "age": 20,
+      "city": "San Francisco",
+      "country": "United Stats",
+      "status": "Visible",
+      "image": "https://www.singlesplace.nl/design/images/female.jpg"
+    },
+    {
+      "name": "Friend 3",
+      "age": 30,
+      "city": "Los Angeles",
+      "country": "United Stats",
+      "status": "Visible",
+      "image": "http://www.theenergycollective.com/wp-content/plugins/userpro/img/default_avatar_male.jpg"
+    },
+    {
+      "name": "Friend 4",
+      "age": 40,
+      "city": "Barcelona",
+      "country": "Spain",
+      "status": "Visible",
+      "image": "https://www.singlesplace.nl/design/images/female.jpg"
+    },
+    {
+      "name": "Friend 5",
+      "age": 50,
+      "city": "New York",
+      "country": "United Stats",
+      "status": "Hidden",
+      "image": "http://www.theenergycollective.com/wp-content/plugins/userpro/img/default_avatar_male.jpg"
+    },
+    {
+      "name": "Friend 6",
+      "age": 60,
+      "city": "Las Vegas",
+      "country": "United Stats",
+      "status": "Visible",
+      "image": "https://www.singlesplace.nl/design/images/female.jpg"
+    },
+    {
+      "name": "Friend 7",
+      "age": 70,
+      "city": "Tarragona",
+      "country": "Spain",
+      "status": "Visible",
+      "image": "http://www.theenergycollective.com/wp-content/plugins/userpro/img/default_avatar_male.jpg"
+    },
+    {
+      "name": "Friend 8",
+      "age": 80,
+      "city": "Valencia",
+      "country": "Spain",
+      "status": "Visible",
+      "image": "https://www.singlesplace.nl/design/images/female.jpg"
+    },
+    {
+      "name": "Friend 9",
+      "age": 90,
+      "city": "Paris",
+      "country": "France",
+      "status": "Visible",
+      "image": "http://www.theenergycollective.com/wp-content/plugins/userpro/img/default_avatar_male.jpg"
+    },
+    {
+      "name": "Friend 10",
+      "age": 100,
+      "city": "Bali",
+      "country": "Indonesia",
+      "status": "Visible",
+      "image": "https://www.singlesplace.nl/design/images/female.jpg"
+    },
+    {
+      "name": "Friend 11",
+      "age": 110,
+      "city": "Arizona",
+      "country": "United Stats",
+      "status": "Visible",
+      "image": "http://www.theenergycollective.com/wp-content/plugins/userpro/img/default_avatar_male.jpg"
+    },
+    {
+      "name": "Friend 12",
+      "age": 120,
+      "city": "San Diego",
+      "country": "United Stats",
+      "status": "Visible",
+      "image": "https://www.singlesplace.nl/design/images/female.jpg"
+    }
+  ]
+}
