@@ -33,7 +33,6 @@ class FriendController
             $this->twig->vars->offset
         );
         $this->twig->vars->friends = $friends;
-        $this->twig->setTemplate('friends');
         return $this->twig->render();
         //return new JsonResponse($friends);
     }

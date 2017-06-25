@@ -12,14 +12,9 @@ class TwigTemplating
 	{
 		$this->loader =  new \Twig_Loader_Filesystem("templates/$template");
 		$this->env = new \Twig_Environment($this->loader);
-		$this->template = DEFAULT_TEMPLATE;
+		$this->template = $template;
 		$this->vars = new \stdClass;
 	}
-
-	public function setTemplate($template)
-    {
-        $this->template = $template;
-    }
 
     public function render()
     {
